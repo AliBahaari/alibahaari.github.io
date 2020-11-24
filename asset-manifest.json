@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f31fdbd9.chunk.css",
+    "main.js": "/static/js/main.1e51ed16.chunk.js",
+    "main.js.map": "/static/js/main.1e51ed16.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.318c8cb8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.318c8cb8.js.map",
+    "static/js/2.37e75ae4.chunk.js": "/static/js/2.37e75ae4.chunk.js",
+    "static/js/2.37e75ae4.chunk.js.map": "/static/js/2.37e75ae4.chunk.js.map",
+    "static/js/3.87a37bd4.chunk.js": "/static/js/3.87a37bd4.chunk.js",
+    "static/js/3.87a37bd4.chunk.js.map": "/static/js/3.87a37bd4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f31fdbd9.chunk.css.map": "/static/css/main.f31fdbd9.chunk.css.map",
+    "static/js/2.37e75ae4.chunk.js.LICENSE.txt": "/static/js/2.37e75ae4.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/IRANSansWeb_UltraLight.fd1af53a.eot",
+    "static/media/Me.10fe5645.jpg": "/static/media/Me.10fe5645.jpg",
+    "static/media/dribbble.7dbe5a10.svg": "/static/media/dribbble.7dbe5a10.svg",
+    "static/media/github.16a9304e.svg": "/static/media/github.16a9304e.svg",
+    "static/media/instagram.f0cfa30d.svg": "/static/media/instagram.f0cfa30d.svg",
+    "static/media/telegram.d213170a.svg": "/static/media/telegram.d213170a.svg",
+    "static/media/twitter.e7886f46.svg": "/static/media/twitter.e7886f46.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.318c8cb8.js",
+    "static/js/2.37e75ae4.chunk.js",
+    "static/css/main.f31fdbd9.chunk.css",
+    "static/js/main.1e51ed16.chunk.js"
+  ]
+}
