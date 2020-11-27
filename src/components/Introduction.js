@@ -2,7 +2,7 @@
 import '../styles/Introduction.css';
 
 // Images
-import Me from '../images/Me.jpg';
+import Me from '../images/me.jpg';
 
 const Introduction = () => {
   return (
