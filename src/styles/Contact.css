@@ -58,14 +58,6 @@
   background-color: #EA4C89;
 }
 
-#instagram::after {
-  background-color: #E4405F;
-}
-
-#twitter::after {
-  background-color: #1DA1F2;
-}
-
 #telegram::after {
   background-color: #2CA5E0;
 }
