@@ -25,10 +25,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .contact .social-networks-icons a {
-  margin: 0 10px;
+  margin: 10px;
   position: relative;
 }
 
