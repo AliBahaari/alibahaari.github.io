@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.73c2cae2.chunk.css",
-    "main.js": "/static/js/main.73cdcd28.chunk.js",
-    "main.js.map": "/static/js/main.73cdcd28.chunk.js.map",
+    "main.css": "/static/css/main.449286a4.chunk.css",
+    "main.js": "/static/js/main.076379de.chunk.js",
+    "main.js.map": "/static/js/main.076379de.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.318c8cb8.js",
     "runtime-main.js.map": "/static/js/runtime-main.318c8cb8.js.map",
     "static/js/2.37e75ae4.chunk.js": "/static/js/2.37e75ae4.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.87a37bd4.chunk.js": "/static/js/3.87a37bd4.chunk.js",
     "static/js/3.87a37bd4.chunk.js.map": "/static/js/3.87a37bd4.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.73c2cae2.chunk.css.map": "/static/css/main.73c2cae2.chunk.css.map",
+    "static/css/main.449286a4.chunk.css.map": "/static/css/main.449286a4.chunk.css.map",
     "static/js/2.37e75ae4.chunk.js.LICENSE.txt": "/static/js/2.37e75ae4.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/IRANSansWeb_UltraLight.fd1af53a.eot",
     "static/media/dribbble.7dbe5a10.svg": "/static/media/dribbble.7dbe5a10.svg",
@@ -20,13 +20,13 @@
     "static/media/me.10fe5645.jpg": "/static/media/me.10fe5645.jpg",
     "static/media/medium.f5be80e2.svg": "/static/media/medium.f5be80e2.svg",
     "static/media/telegram.d213170a.svg": "/static/media/telegram.d213170a.svg",
-    "static/media/tradingview.5a17ec0f.svg": "/static/media/tradingview.5a17ec0f.svg",
+    "static/media/tradingview.f4eff013.svg": "/static/media/tradingview.f4eff013.svg",
     "static/media/twitter.af8d0c30.svg": "/static/media/twitter.af8d0c30.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.318c8cb8.js",
     "static/js/2.37e75ae4.chunk.js",
-    "static/css/main.73c2cae2.chunk.css",
-    "static/js/main.73cdcd28.chunk.js"
+    "static/css/main.449286a4.chunk.css",
+    "static/js/main.076379de.chunk.js"
   ]
 }
