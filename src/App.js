@@ -1,9 +1,9 @@
 // Components
-import Introduction from './components/Introduction.js';
-import Contact from './components/Contact.js';
+import Introduction from "./components/Introduction.js";
+import Contact from "./components/Contact.js";
 
 // Styles
-import './App.css';
+import "./App.css";
 
 const App = () => {
   return (
@@ -12,6 +12,6 @@ const App = () => {
       <Contact />
     </div>
   );
-}
+};
 
 export default App;
