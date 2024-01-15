@@ -1,8 +1,8 @@
 // Styles
-import "../styles/Introduction.css";
+import '../styles/Introduction.css'
 
 // Images
-import Me from "../images/me.jpg";
+import Me from '../images/me.jpg'
 
 const Introduction = () => {
   return (
@@ -13,21 +13,21 @@ const Introduction = () => {
 
       <h1>This Is Me! Ali Bahaari...</h1>
       <p>
-        Nowadays I'm a full-stack developer who is experienced in React.js,
-        React-Native, Next.js, Node.js, JavaScript, TypeScript, Express.js,
-        Nest.js, MySQL and Git. Certainly HTML and CSS (Sass and SCSS) are
-        contained along with many libraries and frameworks as Tailwind CSS,
-        Material UI and etc. Also I have worked with Python which caused
-        creating cryptos trading bots, financial charts classic patterns
-        detector bot, creating Neuroscience tasks with PsychoPy. I'm also an
-        artist! I've worked with Adobe Illustrator for creating logos, vectors,
-        icons and etc. For UI design, I've used Adobe XD and Figma too. At the
-        end, technically I analyze financial charts which includes different
-        approaches to do so. The approaches I’ve worked with and I will, are
-        Elliott, MRM and Ichimoku. I confess, I love Elliott!
+        I'm a Full Stack developer who has expertise in JavaScript, TypeScript,
+        Node.js, React.js, React-Native, Next.js, Jest, Express.js, NestJS,
+        MySQL, Nginx and Git. Certainly HTML and CSS (Sass and SCSS) are
+        included alongside many frameworks and libraries such as Tailwind CSS,
+        Material UI, Bootstrap, etc. Also I have expertise in Python. Sometimes
+        using Python ends up implementing Neuroscience tasks with PsychoPy
+        software. Also I use Python for Web Crawling, Ethical Hacking, Financial
+        Tools, etc. In addition, I utilize Adobe Illustrator for Graphic
+        Designing such as Logos, Vectors, Icons. Surely, Adobe XD and Figma have
+        been using for UIs. At the end, I analyze Financial Markets. I use
+        different approaches to do so simultaneously. Favorites are Elliott, MRM
+        and Ichimoku.
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default Introduction;
+export default Introduction
