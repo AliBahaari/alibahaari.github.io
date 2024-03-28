@@ -1,15 +1,14 @@
 // Styles
-import "../styles/Contact.css";
+import '../styles/Contact.css'
 
 // Images
-import Dribbble from "../images/dribbble.svg";
-import GitHub from "../images/github.svg";
-import Telegram from "../images/telegram.svg";
-import Medium from "../images/medium.svg";
-import LinkedIn from "../images/linkedin.svg";
-import Twitter from "../images/twitter.svg";
-import TradingView from "../images/tradingview.svg";
-import Gmail from "../images/gmail.svg";
+import Dribbble from '../images/dribbble.svg'
+import GitHub from '../images/github.svg'
+import Telegram from '../images/telegram.svg'
+import Medium from '../images/medium.svg'
+import LinkedIn from '../images/linkedin.svg'
+import TradingView from '../images/tradingview.svg'
+import Gmail from '../images/gmail.svg'
 
 const Contact = () => {
   return (
@@ -36,9 +35,6 @@ const Contact = () => {
         >
           <img src={LinkedIn} alt="LinkedIn" />
         </a>
-        <a href="https://twitter.com/AliBahaari" id="twitter" target="_blank">
-          <img src={Twitter} alt="Twitter" />
-        </a>
         <a
           href="https://tradingview.com/u/AliBahaari"
           id="tradingview"
@@ -51,7 +47,7 @@ const Contact = () => {
         </a>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
