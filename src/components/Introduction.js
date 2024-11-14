@@ -13,22 +13,14 @@ const Introduction = () => {
 
       <h1>This is me! Ali Bahaari..</h1>
       <p>
-        I'm a full-stack developer who has expertise in JavaScript, TypeScript,
-        React.js, React Native, Next.js, Redux (Toolkit), Zustand, RTK Query,
-        TanStack Query, AG-Grid, Three.js, GSAP, Jest, React Testing Library,
-        Express.js, NestJS, MySQL, Nginx and Git. Certainly HTML and CSS (SCSS)
-        are included alongside Tailwind CSS, Material UI, Bootstrap, etc.
+        I am a skilled Full Stack and Mobile Developer with extensive experience
+        in various technologies, including frameworks and libraries.
         <br />
-        Also I have expertise in Python. Sometimes using Python ends up
-        implementing Neuroscience tasks with PsychoPy software. Also I use
-        Python for web crawling, ethical hacking, financial tools, etc.
-        <br />
-        In addition, I utilize Adobe Illustrator for graphic design such as
-        logos, vectors, icons, etc. Surely, Adobe XD and Figma have been using
-        for UIs.
-        <br />
-        At the end, I analyze financial markets. I use different approaches to
-        do so simultaneously. My favorite one is Elliott.
+        My expertise in Python allows me to handle a wide range of tasks, from
+        Neuroscience experiments with PsychoPy software to web crawling, ethical
+        hacking, and financial bots development.
+        <br />I am also passionate about analyzing financial markets, using
+        multiple approaches with a special interest in the Elliott Wave Theory.
       </p>
     </div>
   )
