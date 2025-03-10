@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       <div className="w-full sm:w-1/2 lg:w-1/3">
-        <h1 className="text-2xl font-bold border-b-2 border-b-[#52FFB8] inline-block">
+        <h1 className="text-2xl font-bold border-b-2 border-b-[#52FFB8] inline">
           Hey! This Is Ali Bahaari!
         </h1>
         <p className="mt-5">
@@ -38,7 +38,7 @@ export default function Home() {
       </div>
 
       <div className="w-full sm:w-1/2 lg:w-1/3">
-        <h2 className="text-2xl font-bold border-b-2 border-b-[#52FFB8] inline-block">
+        <h2 className="text-2xl font-bold border-b-2 border-b-[#52FFB8] inline">
           Contact Me!
         </h2>
 
