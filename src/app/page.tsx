@@ -1,101 +1,131 @@
-import Image from "next/image";
+'use client'
+
+import Image from 'next/image'
+import { SocialLogo } from 'social-logos'
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="flex flex-col items-center gap-10">
+      <div className="w-1/3">
+        <div className="w-56 h-56 relative border-b-8 border-b-[#52FFB8] overflow-hidden mt-5">
+          <Image
+            fill
+            src={'./Me.jpg'}
+            alt="Ali Bahaari"
+            className="object-cover"
+          />
+        </div>
+      </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+      <div className="w-1/3">
+        <h1 className="text-2xl font-medium border-b-2 border-b-[#52FFB8] inline-block">
+          Hey! This Is Ali Bahaari!
+        </h1>
+        <p className="mt-5 text-justify">
+          I am a skilled full stack and mobile developer with extensive
+          experience in various technologies, including frameworks and
+          libraries.
+        </p>
+        <p className="text-justify">
+          My expertise in Python allows me to handle a wide range of tasks, from
+          Neuroscience experiments with PsychoPy software to web crawling,
+          ethical hacking, and financial bots development.
+        </p>
+        <p className="text-justify">
+          I am also passionate about analyzing financial markets, using multiple
+          approaches with a special interest in the Elliott.
+        </p>
+      </div>
+
+      <div className="w-1/3">
+        <h2 className="text-2xl font-medium border-b-2 border-b-[#52FFB8] inline-block">
+          Contact Me!
+        </h2>
+
+        <div className="flex flex-row gap-10 items-center justify-center mt-5">
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://github.com/AliBahaari"
             target="_blank"
-            rel="noopener noreferrer"
+            className="border-b-2 border-b-[#181717] pb-1 group"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+            <SocialLogo
+              icon={'github'}
+              size={36}
+              className="relative group-hover:-translate-y-1 transition-transform"
             />
-            Deploy now
           </a>
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://dribbble.com/AliBahaari"
             target="_blank"
-            rel="noopener noreferrer"
+            className="border-b-2 border-b-[#EA4C89] pb-1 group"
           >
-            Read our docs
+            <SocialLogo
+              icon={'dribbble'}
+              size={36}
+              className="relative group-hover:-translate-y-1 transition-transform"
+            />
+          </a>
+          <a
+            href="https://t.me/AliBahaari"
+            target="_blank"
+            className="border-b-2 border-b-[#2CA5E0] pb-1 group"
+          >
+            <SocialLogo
+              icon={'telegram'}
+              size={36}
+              className="relative group-hover:-translate-y-1 transition-transform"
+            />
+          </a>
+          <a
+            href="https://alibahaari.medium.com"
+            target="_blank"
+            className="border-b-2 border-b-[#000] pb-1 group"
+          >
+            <SocialLogo
+              icon={'medium'}
+              size={36}
+              className="relative group-hover:-translate-y-1 transition-transform"
+            />
+          </a>
+          <a
+            href="https://linkedin.com/in/alibahaari"
+            target="_blank"
+            className="border-b-2 border-b-[#0A66C2] pb-1 group"
+          >
+            <SocialLogo
+              icon={'linkedin'}
+              size={36}
+              className="relative group-hover:-translate-y-1 transition-transform"
+            />
+          </a>
+          <a
+            href="mailto:alibahaari1997@gmail.com"
+            target="_blank"
+            className="border-b-2 border-b-[#EA4335] pb-1 group"
+          >
+            <SocialLogo
+              icon={'google'}
+              size={36}
+              className="relative group-hover:-translate-y-1 transition-transform"
+            />
+          </a>
+          <a
+            href="https://tradingview.com/u/AliBahaari"
+            target="_blank"
+            className="group w-[36px] h-[36px] relative flex flex-row justify-center items-start"
+          >
+            <div className="w-[30px] h-[30px] relative">
+              <Image
+                fill
+                src={'./TradingView.svg'}
+                alt="TradingView"
+                className="relative group-hover:-translate-y-1 transition-transform object-contain"
+              />
+            </div>
+            <div className="w-full h-[2px] bg-[#000] left-0 top-[calc(100%+2px)] absolute" />
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
     </div>
-  );
+  )
 }
