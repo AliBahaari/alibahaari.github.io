@@ -5,9 +5,9 @@ import { SocialLogo } from 'social-logos'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center gap-10">
-      <div className="w-1/3">
-        <div className="w-56 h-56 relative border-b-8 border-b-[#52FFB8] overflow-hidden mt-5">
+    <div className="flex flex-col items-center gap-10 my-5 p-5 sm:p-0">
+      <div className="w-full sm:w-1/2 lg:w-1/3">
+        <div className="w-56 h-56 relative border-b-8 border-b-[#52FFB8] overflow-hidden">
           <Image
             fill
             src={'./Me.jpg'}
@@ -17,32 +17,32 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-1/3">
-        <h1 className="text-2xl font-medium border-b-2 border-b-[#52FFB8] inline-block">
+      <div className="w-full sm:w-1/2 lg:w-1/3">
+        <h1 className="text-2xl font-bold border-b-2 border-b-[#52FFB8] inline-block">
           Hey! This Is Ali Bahaari!
         </h1>
-        <p className="mt-5 text-justify">
+        <p className="mt-5">
           I am a skilled full stack and mobile developer with extensive
           experience in various technologies, including frameworks and
           libraries.
         </p>
-        <p className="text-justify">
+        <p>
           My expertise in Python allows me to handle a wide range of tasks, from
           Neuroscience experiments with PsychoPy software to web crawling,
           ethical hacking, and financial bots development.
         </p>
-        <p className="text-justify">
+        <p>
           I am also passionate about analyzing financial markets, using multiple
           approaches with a special interest in the Elliott.
         </p>
       </div>
 
-      <div className="w-1/3">
-        <h2 className="text-2xl font-medium border-b-2 border-b-[#52FFB8] inline-block">
+      <div className="w-full sm:w-1/2 lg:w-1/3">
+        <h2 className="text-2xl font-bold border-b-2 border-b-[#52FFB8] inline-block">
           Contact Me!
         </h2>
 
-        <div className="flex flex-row gap-10 items-center justify-center mt-5">
+        <div className="flex flex-row gap-5 items-center justify-center mt-5">
           <a
             href="https://github.com/AliBahaari"
             target="_blank"
@@ -50,7 +50,7 @@ export default function Home() {
           >
             <SocialLogo
               icon={'github'}
-              size={36}
+              size={26}
               className="relative group-hover:-translate-y-1 transition-transform"
             />
           </a>
@@ -61,7 +61,7 @@ export default function Home() {
           >
             <SocialLogo
               icon={'dribbble'}
-              size={36}
+              size={26}
               className="relative group-hover:-translate-y-1 transition-transform"
             />
           </a>
@@ -72,7 +72,7 @@ export default function Home() {
           >
             <SocialLogo
               icon={'telegram'}
-              size={36}
+              size={26}
               className="relative group-hover:-translate-y-1 transition-transform"
             />
           </a>
@@ -83,7 +83,7 @@ export default function Home() {
           >
             <SocialLogo
               icon={'medium'}
-              size={36}
+              size={26}
               className="relative group-hover:-translate-y-1 transition-transform"
             />
           </a>
@@ -94,7 +94,7 @@ export default function Home() {
           >
             <SocialLogo
               icon={'linkedin'}
-              size={36}
+              size={26}
               className="relative group-hover:-translate-y-1 transition-transform"
             />
           </a>
@@ -105,16 +105,16 @@ export default function Home() {
           >
             <SocialLogo
               icon={'google'}
-              size={36}
+              size={26}
               className="relative group-hover:-translate-y-1 transition-transform"
             />
           </a>
           <a
             href="https://tradingview.com/u/AliBahaari"
             target="_blank"
-            className="group w-[36px] h-[36px] relative flex flex-row justify-center items-start"
+            className="group w-[26px] h-[26px] relative flex flex-row justify-center items-start"
           >
-            <div className="w-[30px] h-[30px] relative">
+            <div className="w-[20px] h-[20px] relative">
               <Image
                 fill
                 src={'./TradingView.svg'}
